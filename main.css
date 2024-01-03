@@ -1,0 +1,40 @@
+.calculator-grid {
+  display: flex;
+  justify-content: center;
+  margin: 100px auto;
+  max-width: 370px;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+button {
+  font-size: 30px;
+  padding: 15px 30px;
+  font-family: sans-serif;
+  margin-left: 5px;
+}
+
+.display {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  min-width: 300px;
+  min-height: 60px;
+  background-color: gray;
+  border: 2px solid black;
+  padding: 15px;
+  margin: 10px 30px;
+  color: white;
+}
+
+.data-equals {
+  padding: 15px 72px;
+}
+
+.previous-operand,
+.current-operand {
+  align-self: flex-end;
+}
